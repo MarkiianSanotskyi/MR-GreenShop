@@ -1,0 +1,419 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/fonts.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/jquery.formstyler.css" rel="stylesheet">
+<link href="css/jquery.fancybox.css" rel="stylesheet">
+<title>Dumps</title>
+<!--[if lte IE 8]><script src="http://phpbbex.com/oldies/oldies.js" charset="utf-8"></script><![endif]-->
+</head>
+
+<body>
+<div class="wrapper"> 
+  
+  <!--HEADER-->
+  <div id="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-8"> 
+          <!--TOP-NAV-->
+          <ul class="nav header-nav">
+            <li><a href="dumps.html">Dumps</a></li>
+            <li> <a href="#">Bulk</a> </li>
+            <li class="active"><a href="index.html">Cards</a></li>
+            <li><a href="#">C-bulk</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="news.html">News</a></li>
+            <li><a href="readme.html">Readme</a></li>
+          </ul>
+        </div>
+        <!--TOP-NAV END-->
+        
+        <div class="col-xs-4">
+          <div class="header-settings"> <a href="#" class="chat"></a> <a href="javascript:void(0);" tabindex="1"  class="settings main-item"></a>
+            <ul class="settings-menu">
+              <li><a href="#1" class="funds"><i></i>Add Funds</a></li>
+              <li><a href="#2" class="edit"><i></i>Edit profile</a></li>
+              <li><a href="#3" class="logout"><i></i>Logout</a></li>
+            </ul>
+          </div>
+          <div class="header-basket-box"> <a id="fancybox-overlay" href="#table-cards" class="basket active"><i>9</i></a> 
+            
+            <!--DIV MODAL WIN-->
+            <div id="table-cards" class="form-modal" style="z-index:8000; display: none;">
+              <h2>Your cart</h2>
+              <form>
+                <div class="fancybox-title-box">
+                  <div class="bins">Bins: <span>2</span> </div>
+                  <div class="dumps">Dumps: <span>1</span> </div>
+                </div>
+                <table class="table-striped fancybox-table">
+                  <thead>
+                    <tr>
+                      <td style="width: 55px;max-width: 55px;"></td>
+                      <td class="thead-bin" style="width: 97px;max-width: 97px;">BIn</td>
+                      <td class="thead-td-second" style="width: 67px; max-width:67px"></td>
+                      <td style="width: 68px; max-width:68px">svc</td>
+                      <td style="width: 68px; max-width:68px">wps</td>
+                      <td style="width: 68px; max-width:68px">type</td>
+                      <td style="width: 197px; max-width:197px">class</td>
+                      <td style="width: 55px; max-width:55px"></td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td style="width: 55px;max-width: 55px;"><img src="images/flags/y/Yemen.png" alt="Yemen" title="Yemen"></td>
+                      <td style="width: 97px;max-width: 97px;">413406</td>
+                      <td style="width: 67px; max-width:67px">$158</td>
+                      <td style="width: 68px;max-width: 68px;">201</td>
+                      <td style="width: 68px;max-width: 68px;"><img src="images/ico-visa.jpg" alt="Visa" title="Visa"></td>
+                      <td style="width: 68px;max-width: 86px;">Credit</td>
+                      <td style="width: 197px; max-width:197px">Corporate T&amp;E </td>
+                      <td style="width: 55px;max-width: 55px;"><a href="#" class="delete">close</a></td>
+                    </tr>
+                    <tr>
+                      <td style="width: 55px;max-width: 55px;"><img src="images/flags/y/Yemen.png" alt="Yemen" title="Yemen"></td>
+                      <td style="width: 97px;max-width: 97px;">413406</td>
+                      <td style="width: 67px; max-width:67px">$158</td>
+                      <td style="width: 68px;max-width: 68px;">201</td>
+                      <td style="width: 68px;max-width: 68px;"><img src="images/ico-visa.jpg" alt="Visa" title="Visa"></td>
+                      <td style="width: 68px;max-width: 86px;">Credit</td>
+                      <td style="width: 197px; max-width:197px">Corporate T&amp;E </td>
+                      <td style="width: 55px;max-width: 55px;"><a href="#" class="delete">close</a></td>
+                    </tr>
+                    <tr>
+                      <td style="width: 55px;max-width: 55px;"><img src="images/flags/y/Yemen.png" alt="Yemen" title="Yemen"></td>
+                      <td style="width: 97px;max-width: 97px;">413406</td>
+                      <td style="width: 67px; max-width:67px">$158</td>
+                      <td style="width: 68px;max-width: 68px;">201</td>
+                      <td style="width: 68px;max-width: 68px;"><img src="images/ico-visa.jpg" alt="Visa" title="Visa"></td>
+                      <td style="width: 68px;max-width: 86px;">Credit</td>
+                      <td style="width: 197px; max-width:197px">Corporate T&amp;E </td>
+                      <td style="width: 55px;max-width: 55px;"><a href="#" class="delete">close</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="clearfix">
+                  <div class="fancybox-order">Order Total: <span>290$</span></div>
+                  <div class="form-submit-before pull-right">
+                    <input type="submit" value="Place Order" class="place-order">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!--DIV END MODAL WIN-->
+            <div class="balance-box">
+              <p>Hello, <span>design</span></p>
+              <div class="balance"> Balance: <span>$9176.8</span> <a href="#"></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--HEADER END--> 
+  
+  <!--CONTENT-BOX-->
+  <div id="content-box">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 clearfix">
+          <div class="content dumps-total">
+            <header>
+              <h3>Dumps</h3>
+            </header>
+            <div class="content-box">
+              <form>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="chackbox-form clearfix">
+                      <div class="chackbox-form-box">
+                        <label>
+                          <input type="checkbox">
+                          Download as .txt</label>
+                        <label>
+                          <input type="checkbox">
+                          Random page</label>
+                      </div>
+                      <div class="pull-right">
+                        <div class="form-group">
+                          <label>Per page:</label>
+                          <select>
+                            <option>All</option>
+                            <option>50</option>
+                            <option>100</option>
+                            <option disabled>250</option>
+                            <option>500</option>
+                            <option>1000</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="base">
+                      <div class="form-group">
+                        <label class="control-label">Base:</label>
+                        <select>
+                          <option>All</option>
+                          <option>All 1</option>
+                          <option>All 2</option>
+                          <option disabled>All 3</option>
+                          <option>All 4</option>
+                          <option>All 5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="base">
+                      <label class="control-label">Bins:</label>
+                      <input type="text" placeholder="Sample: 414373,517201,485437 or single bin  ">
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="base type">
+                      <div class="form-group">
+                        <label class="control-label">Type:</label>
+                        <select class="first">
+                          <option>All</option>
+                          <option>All 1</option>
+                          <option>All 2</option>
+                          <option disabled>All 3</option>
+                          <option>All 4</option>
+                          <option>All 5</option>
+                        </select>
+                        <select class="second">
+                          <option>All</option>
+                          <option>All 1</option>
+                          <option>All 2</option>
+                          <option disabled>All 3</option>
+                          <option>All 4</option>
+                          <option>All 5</option>
+                        </select>
+                        <select class="third">
+                          <option>All</option>
+                          <option>All 1</option>
+                          <option>All 2</option>
+                          <option disabled>All 3</option>
+                          <option>All 4</option>
+                          <option>All 5</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="base type last">
+                      <div class="form-group">
+                        <label class="control-label">Country:</label>
+                        <select class="first">
+                          <option>All</option>
+                          <option>All 1</option>
+                          <option>All 2</option>
+                          <option disabled>All 3</option>
+                          <option>All 4</option>
+                          <option>All 5</option>
+                        </select>
+                        <div class="base sample">
+                          <label class="control-label">Svc_code:</label>
+                          <select class="second">
+                            <option>All</option>
+                            <option>All 1</option>
+                            <option>All 2</option>
+                            <option disabled>All 3</option>
+                            <option>All 4</option>
+                            <option>All 5</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="form-submit cards">
+                      <div class="form-submit-before">
+                        <input type="submit" value="Get Binlist" class="get-bin">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="table-box">
+                  <table class="table-striped index-table">
+                    <thead>
+                      <tr>
+                        <td style="width: 100px;max-width: 100px;">BIn</td>
+                        <td class="thead-td-second" style="width: 58px;"></td>
+                        <td style="width: 131px;">Add to cart</td>
+                        <td style="width: 52px;">svc</td>
+                        <td style="width: 50px;">wps</td>
+                        <td style="width: 304px;">issuer</td>
+                        <td style="width: 60px;">type</td>
+                        <td style="width: 130px;">class</td>
+                        <td style="width: 55px;"></td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td style="width: 100px;max-width: 100px;">413406</td>
+                        <td style="width: 58px;max-width: 58px;">$158</td>
+                        <td style="width: 131px;max-width: 131px;"><div class="input-box">
+                            <input type="text" placeholder="1 (12)">
+                            </div>
+                          <a id="fancybox-overlay" href="#AddToCard"></a> 
+                          <!--DIV MODAL WIN-->
+                          
+                          <div id="AddToCard" class="form-modal" style="z-index:8000; display: none;">
+                            <h2>Item was Added</h2>
+                            <div class="AddToCard-box clearfix">
+                              <div class="AddToCard-bin">BIN : <span>413406</span></div>
+                              <div class="AddToCard-price">Price: 5х = <span> $180</span></div>
+                            </div>
+                          </div>
+                          
+                          <!--DIV END MODAL WIN--></td>
+                        <td style="width: 52px;max-width: 52px;">201</td>
+                        <td style="width: 50px;max-width: 50px;"><img src="images/ico-visa.jpg" alt="Visa" title="Visa"></td>
+                        <td style="width: 304px;max-width: 304px;">Alied irish banks PLC</td>
+                        <td style="width: 60px;max-width: 60px;">Credit</td>
+                        <td style="width: 130px;max-width: 130px;">Corporate T&amp;E </td>
+                        <td style="width: 55px;max-width: 55px;"><img src="images/flags/y/Yemen.png" alt="Yemen" title="Yemen"></td>
+                      </tr>
+                      <tr>
+                        <td style="width: 100px;max-width: 100px;">413406</td>
+                        <td style="width: 58px;max-width: 58px;">$60</td>
+                        <td style="width: 131px;max-width: 131px;"><input type="text" placeholder="1 (3)">
+                          <a href="#"></a></td>
+                        <td style="width: 52px;max-width: 52px;">226</td>
+                        <td style="width: 50px;max-width: 50px;"><img src="images/ico-mastercard.jpg" alt="Mastercard" title="Mastercard"></td>
+                        <td style="width: 304px;max-width: 304px;">Laser Nederland B.V.Laser</td>
+                        <td style="width: 60px;max-width: 60px;">Debit</td>
+                        <td style="width: 130px;max-width: 130px;">Classic</td>
+                        <td style="width: 55px;max-width: 55px;"><img src="images/flags/p/Portugal.png" alt="Portugal" title="Portugal"></td>
+                      </tr>
+                      <tr>
+                        <td style="width: 100px;max-width: 100px;">413406</td>
+                        <td style="width: 58px;max-width: 58px;">$36</td>
+                        <td style="width: 131px;max-width: 131px;"><input type="text" placeholder="1 (9)">
+                          <a href="#"></a></td>
+                        <td style="width: 52px;max-width: 52px;">201</td>
+                        <td style="width: 50px;max-width: 50px;"><img src="images/ico-discaver.jpg" alt="Discaver" title="Discaver"></td>
+                        <td style="width: 304px;max-width: 304px;">Ing Belgium SA/NV</td>
+                        <td style="width: 60px;max-width: 60px;">Credit</td>
+                        <td style="width: 130px;max-width: 130px;">Business</td>
+                        <td style="width: 55px;max-width: 55px;"><img src="images/flags/u/uk.png" alt="England" title="England"></td>
+                      </tr>
+                      <tr>
+                        <td style="width: 100px;max-width: 100px;">413406</td>
+                        <td style="width: 58px;max-width: 58px;">$158</td>
+                        <td style="width: 131px;max-width: 131px;"><input type="text" placeholder="1 (12)">
+                          <a href="#"></a></td>
+                        <td style="width: 52px;max-width: 52px;">201</td>
+                        <td style="width: 50px;max-width: 50px;"><img src="images/ico-amex.jpg" alt="Amex" title="Amex"></td>
+                        <td style="width: 304px;max-width: 304px;">Alied irish banks PLC</td>
+                        <td style="width: 60px;max-width: 60px;">Credit</td>
+                        <td style="width: 130px;max-width: 130px;">Corporate T&amp;E</td>
+                        <td style="width: 55px;max-width: 55px;"><img src="images/flags/y/Yemen.png" alt="Yemen" title="Yemen"></td>
+                      </tr>
+                      <tr>
+                        <td style="width: 100px;max-width: 100px;">413406</td>
+                        <td style="width: 58px;max-width: 58px;">$60</td>
+                        <td style="width: 131px;max-width: 131px;"><input type="text" placeholder="1 (3)">
+                          <a href="#"></a></td>
+                        <td style="width: 52px;max-width: 52px;">226</td>
+                        <td style="width: 50px;max-width: 50px;"><img src="images/ico-maestro.jpg" alt="Maestro" title="Maestro"></td>
+                        <td style="width: 304px;max-width: 304px;">Laser Nederland B.V.Laser</td>
+                        <td style="width: 60px;max-width: 60px;">Debit</td>
+                        <td style="width: 130px;max-width: 130px;">Classic</td>
+                        <td style="width: 55px;max-width: 55px;"><img src="images/flags/p/Portugal.png" alt="Portugal" title="Portugal"></td>
+                      </tr>
+                      <tr>
+                        <td style="width: 100px;max-width: 100px;">413406</td>
+                        <td style="width: 58px;max-width: 58px;">$36</td>
+                        <td style="width: 131px;max-width: 131px;"><input type="text" placeholder="1 (9)">
+                          <a href="#"></a></td>
+                        <td style="width: 52px;max-width: 52px;">201</td>
+                        <td style="width: 50px;max-width: 50px;"><img src="images/ico-jcb.jpg" alt="Jcb" title="Jcb"></td>
+                        <td style="width: 304px;max-width: 304px;">Ing Belgium SA/NV</td>
+                        <td style="width: 60px;max-width: 60px;">Credit</td>
+                        <td style="width: 130px;max-width: 130px;">Business</td>
+                        <td style="width: 55px;max-width: 55px;"><img src="images/flags/u/uk.png" alt="England" title="England"></td>
+                      </tr>
+                      <tr>
+                        <td style="width: 100px;max-width: 100px;">413406</td>
+                        <td style="width: 58px;max-width: 58px;">$36</td>
+                        <td style="width: 131px;max-width: 131px;"><input type="text" placeholder="1 (9)">
+                          <a href="#"></a></td>
+                        <td style="width: 52px;max-width: 52px;">201</td>
+                        <td style="width: 50px;max-width: 50px;"><img src="images/ico-union-pay.jpg" alt="Union pay" title="Union pay"></td>
+                        <td style="width: 304px;max-width: 304px;">Ing Belgium SA/NV</td>
+                        <td style="width: 60px;max-width: 60px;">Credit</td>
+                        <td style="width: 130px;max-width: 130px;">Business</td>
+                        <td style="width: 55px;max-width: 55px;"><img src="images/flags/u/uk.png" alt="England" title="England"></td>
+                      </tr>
+                      <tr>
+                        <td style="width: 100px;max-width: 100px;">413406</td>
+                        <td style="width: 58px;max-width: 58px;">$158</td>
+                        <td style="width: 131px;max-width: 131px;"><input type="text" placeholder="1 (12)">
+                          <a href="#"></a></td>
+                        <td style="width: 52px;max-width: 52px;">201</td>
+                        <td style="width: 50px;max-width: 50px;"><img src="images/ico-visa.jpg" alt="Visa" title="Visa"></td>
+                        <td style="width: 304px;max-width: 304px;">Alied irish banks PLC</td>
+                        <td style="width: 60px;max-width: 60px;">Credit</td>
+                        <td style="width: 130px;max-width: 130px;">Corporate T&amp;E </td>
+                        <td style="width: 55px;max-width: 55px;"><img src="images/flags/y/Yemen.png" alt="Yemen" title="Yemen"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12"> 
+                <!--PAGINATION-->
+                <div class="pagination">
+                  <ul>
+                    <li class="prev"><a href="#">Previous</a></li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li class="next"><a href="#">Next</a></li>
+                  </ul>
+                </div>
+                <!--PAGINATION END--> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--CONTENT-BOX END-->
+  
+  <div class="empty"></div>
+</div>
+<script src="js/jquery-1.10.2.min.js"></script> 
+<script src="js/jquery.formstyler.js"></script> 
+<script src="js/jquery.fancybox.pack.js"></script> 
+<script src="js/components.js"></script> 
+<script src="js/SmoothScroll.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/scripts.js"></script>
+</body>
+</html>
